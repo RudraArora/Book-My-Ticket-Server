@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["Q"]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "double"
+multiline-quotes = "double"

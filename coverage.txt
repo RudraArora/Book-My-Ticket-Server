@@ -1,0 +1,22 @@
+Name                              Stmts   Miss  Cover   Missing
+---------------------------------------------------------------
+apps/cinema/admin.py                 20      4    80%   12, 15, 20, 23
+apps/cinema/filters.py               12      1    92%   10
+apps/cinema/models.py                83     10    88%   64, 71, 84, 90, 128, 133, 144, 153, 168, 181
+apps/cinema/serializers.py           83      9    89%   104-105, 112, 121, 128, 170-171, 174, 177
+apps/cinema/tests/test_views.py      87      1    99%   179
+apps/cinema/views.py                 66      6    91%   62, 65, 68, 104, 116, 121
+apps/common/strategies.py            12      1    92%   7
+apps/movie/filters.py                32      1    97%   43
+apps/movie/models.py                 39     10    74%   30, 36, 52, 55, 79-80, 103, 107, 110-111
+apps/movie/views.py                  43     15    65%   67-96
+apps/user/filters.py                 21      9    57%   17-36
+apps/user/models.py                  16      1    94%   47
+apps/user/serializers.py             43      5    88%   38, 50, 84, 93-94
+apps/user/validators.py              11      1    91%   33
+apps/user/views.py                   49      2    96%   48-49
+manage.py                            11      2    82%   13-14
+---------------------------------------------------------------
+TOTAL                              1192     78    93%
+
+43 files skipped due to complete coverage.
