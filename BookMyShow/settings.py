@@ -32,7 +32,7 @@ SECRET_KEY = env("SECRET_KEY")
 # Debug file loading from .env file
 DEBUG = env("DEBUG")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
